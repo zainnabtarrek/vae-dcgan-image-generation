@@ -1,4 +1,4 @@
-# vae-dcgan-image-generation
+# vae-dcgan-image-generation_pytorch
 
 This project implements and compares Variational Autoencoders (VAE) and Deep Convolutional GANs (DCGAN) for generating grayscale and RGB images.
 
