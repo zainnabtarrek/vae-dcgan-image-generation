@@ -5,9 +5,7 @@ This project implements and compares Variational Autoencoders (VAE) and Deep Con
 ## Features
 ### Part 1: VAE on Grayscale Images
 - Built a Variational Autoencoder model for grayscale images.
-- Developed a GUI for user interaction.
-![image](https://github.com/user-attachments/assets/9f52ce24-8503-43a8-b9d8-893928191533)
- 
+- Developed a GUI for user interaction. 
 
 ### Part 2: VAE on RGB Images
 - Extended the VAE model to RGB images.
@@ -33,9 +31,11 @@ This project implements and compares Variational Autoencoders (VAE) and Deep Con
 The loss function for the VAE consists of two components:
 
 1- Reconstruction Loss: Measures how well the decoder reconstructs the input using Mean Squared Error (MSE).
+
 2- KL Divergence Loss: Encourages the latent space distribution to approximate a standard normal distribution.
 
 -Deep Convolutional Generative Adversarial Network (DCGAN):
+
 Binary Cross-Entropy Loss (BCELoss) is used to measure the difference between the generated images and the real images during training.
 
 ## GUI Features
